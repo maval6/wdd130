@@ -17,7 +17,7 @@ h2 {
 
 .herodiv {
 	margin: 10px auto;
-	position: relative; /* If removed, what happens? */
+	position: relative; /* If removed, the ".stats" class takes its absolute position relative to the default document positon and move to the bottom right of the page */
 }
 
 .herodiv img {
