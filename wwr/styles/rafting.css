@@ -42,6 +42,12 @@ footer .sociallinks a img {
     margin: 0 10px;
 }
 
+/* The following CSS selector (rule) emoves underlines from all hyperlinks. Do not do this.*/
+a {
+text-decoration: none;
+}
+
+
 body {
     margin: 0;
     padding: 0;
@@ -106,4 +112,9 @@ header, main, footer {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     margin-top: 20px;
     z-index: 0;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
 }
