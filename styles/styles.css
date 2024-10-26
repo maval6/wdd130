@@ -5,26 +5,41 @@
 }
 
 nav {
-background-color: steelblue;
-padding: 10px;
+    background-color: steelblue;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 nav a {
-color: white;
-display: block;
-padding: 20px;
+    color: white;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    font-weight: 700;
+    font-size: 1.2rem;
+    cursor: pointer;
+
 }
 
 h1 {
-color: steelblue;
+    color: steelblue;
+    font-size: 2.5rem;
+    text-align: center;
+    border-bottom: 2px solid steelblue;
+    padding-bottom: 1rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;    
 }
 
 img {
-width: 150px;
-height: auto;
-border: 1px solid steelblue;
-padding: 2px;
-box-shadow: 0 0 30px gray;
+    width: 150px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
 }
 
 p {
@@ -32,25 +47,27 @@ padding: 10px;
 }
 
 main {
-max-width: 960px;
+    max-width: 960px;
 }
 
 aside {
-position: relative;
-padding: 10px 0px 0px;
-width: 20rem;
-text-align: center;
+    position: relative;
+    padding: 10px 0px 0px;
+    width: 20rem;
+    text-align: center;
 }
 
 aside img {
-width: 200px;
-height: auto;
+    width: 200px;
+    height: auto;
+    margin: 0px 50px 0px 50px;
 }
 
 main img {
-width: 150px;
-height: auto;
-float: right;
+    width: 150px;
+    height: auto;
+    float: right;
+    margin: 1rem;
 }
 
 ul {
@@ -58,9 +75,9 @@ clear: both;
 }
 
 footer {
-margin-top: 15px;
-border-top: ver(--border);
-text-align: center;
+    margin-top: 15px;
+    border-top: ver(--border);
+    text-align: center;
 }
 
 aside h2 {
@@ -71,17 +88,40 @@ aside h2 {
 }
 
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /* Class Selectors */
 
 .box {
-margin: 1rem;
-border: ver(--border);
-padding: ver(--padding);
-background-color: #ddd;
-color: #000;
+    margin: 1rem;
+    border: ver(--border);
+    padding: ver(--padding);
+    background-color: #ddd;
+    color: #000;
+
+}
+
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+}
+
+main {
+    grid-column: 2/3;
+    margin: 1rem;
+}
+
+aside {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    position: relative;
+    width: 20rem;
 }
