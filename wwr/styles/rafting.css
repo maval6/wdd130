@@ -191,8 +191,8 @@ section.adventure {
 }
 
 .adventure-gallery img {
-    width: 150px;
-    height: 100%;
+    width: 100%;
+    height: 150px;
     border-radius: 5px;
     object-fit: cover;
 }
