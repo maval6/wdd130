@@ -23,6 +23,11 @@ h1 {
     margin-bottom: 20px;
 }
 
+h1::before {
+    content: "✅";
+    margin-right: 10px; /* Adjusts space between emoji and text */
+}
+
 form {
     display: grid;
     width: 100%;
