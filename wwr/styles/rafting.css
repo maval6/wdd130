@@ -534,3 +534,15 @@ footer .sociallinks a:hover img {
 .submit-button:hover {
     background-color: #583991;
 }
+
+.wireframe {
+    width: 250px;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 4px;
+    margin: 15px auto;
+    background-color: #f8f8ff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   
+}
