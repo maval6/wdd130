@@ -628,3 +628,110 @@ footer .sociallinks a:hover img {
 .cta-section a:hover {
     background-color: var(--secondary-color);
 }
+
+/* Trips table styles */
+.trips-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+    background-color: var(--background-color);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.trips-table th {
+    background-color: var(--primary-color);
+    color: var(--heading-color);
+    padding: 1rem;
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+}
+
+.trips-table td {
+    padding: 1rem;
+    border-bottom: 1px solid var(--secondary-color);
+}
+
+.trips-table tr:hover {
+    background-color: var(--secondary-color);
+}
+
+/* Trip cards styles */
+.trips-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.trip-card {
+    background-color: var(--background-color);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.trip-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.trip-card-content {
+    padding: 1.5rem;
+}
+
+.trip-card h3 {
+    color: var(--heading-color);
+    margin-bottom: 0.5rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+.difficulty {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+}
+
+.beginner { background-color: var(--secondary-color); }
+.intermediate { background-color: var(--accent1-color); }
+.advanced { background-color: var(--accent2-color); color: white; }
+
+/* CTA section styles */
+.trips-cta {
+    background-color: var(--accent1-color);
+    padding: 3rem;
+    text-align: center;
+    border-radius: 8px;
+    margin: 2rem 0;
+    color: var(--background-color);
+}
+
+.trips-cta a {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: var(--background-color);
+    color: var(--accent1-color);
+    text-decoration: none;
+    border-radius: 4px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    margin-top: 1rem;
+    transition: background-color 0.3s;
+}
+
+.trips-cta a:hover {
+    background-color: var(--secondary-color);
+}
+ /* Wireframe section */
+.wireframe-section {
+    text-align: center;
+    margin: auto 2rem;
+}
+
+.wireframe {
+    max-width: 100%;
+    height: auto;
+}
