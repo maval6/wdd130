@@ -633,10 +633,9 @@ footer .sociallinks a:hover img {
 .trips-table {
     width: 100%;
     border-collapse: collapse;
-    margin: 2rem 0;
+    margin: 2rem auto;
     background-color: var(--background-color);
     border-radius: 8px;
-    overflow: hidden;
 }
 
 .trips-table th {
@@ -727,8 +726,9 @@ footer .sociallinks a:hover img {
 }
  /* Wireframe section */
 .wireframe-section {
+    max-width: 100%;
     text-align: center;
-    margin: auto 2rem;
+    margin: 2rem auto;
 }
 
 .wireframe {
