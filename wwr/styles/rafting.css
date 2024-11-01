@@ -753,14 +753,3 @@ footer .sociallinks a:hover img {
 .trips-cta a:hover {
     background-color: var(--secondary-color);
 }
- /* Wireframe section */
-.wireframe-section {
-    max-width: 100%;
-    text-align: center;
-    margin: 2rem auto;
-}
-
-.wireframe {
-    max-width: 100%;
-    height: auto;
-}
