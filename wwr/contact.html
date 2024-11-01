@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | White Water Rafting</title>
+    <meta name="description" content="Get in touch with Thr Rapids. We’re here to answer your questions about our services. Contact us today!">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo-box">
+            <img src="images/rapids_logo.jpg" alt="logo">
+        </div>
+        <nav>
+           <a href="index.html">Home</a>
+           <a href="about.html">About Us</a>
+           <a href="trips.html">Trips</a>
+           <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+
+        <div class="contact-hero-banner">
+            <div class="contact-banner-content">
+                <div class="contact-title-container">
+                    <div class="contact-title-line-left"></div>
+                    <h1 class="contact-banner-heading">CONTACT US</h1>
+                    <div class="contact-title-line-right"></div>
+                </div>
+            </div>
+        </div>
+        <section class="contact-top-section">
+            <div class="company-info">
+                <h2>Get in touch today</h2>
+                <p>We love questions and feedback - and we're always happy to help!</p>
+                <p>Here are some ways to contact us.</p>
+                
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <img src="images/address-icon.png" alt="Address icon" class="contact-icon">
+                        <div class="contact-text">
+                            <span class="label">Address:</span>
+                            <span class="value">555 Muyuka Road S.W. Cameroon</span>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <img src="images/email-icon.png" alt="Email icon" class="contact-icon">
+                        <div class="contact-text">
+                            <span class="label">Email:</span>
+                            <span class="value">contact@company.com</span>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <img src="images/phone-icon.png" alt="Phone icon" class="contact-icon">
+                        <div class="contact-text">
+                            <span class="label">Phone:</span>
+                            <span class="value">+237 123-3213-23</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="contact-employees">
+                <div class="contact-employee-grid">
+                    <div class="contact-employee-card">
+                        <div class="contact-employee-avatar">
+                            <img src="images/employee1.jpg" 
+                                 alt="Employee 1 profile photo"
+                                 onError="this.src='images/default-avatar.jpg'">
+                        </div>
+                        <span class="contact-employee-title">Employee 1</span>
+                    </div>
+                    <div class="contact-employee-card">
+                        <div class="contact-employee-avatar">
+                            <img src="images/employee2.jpg" 
+                                 alt="Employee 2 profile photo"
+                                 onError="this.src='images/default-avatar.jpg'">
+                        </div>
+                        <span class="contact-employee-title">Employee 2</span>
+                    </div>
+                    <div class="contact-employee-card">
+                        <div class="contact-employee-avatar">
+                            <img src="images/employee3.jpg" 
+                                 alt="Employee 3 profile photo"
+                                 onError="this.src='images/default-avatar.jpg'">
+                        </div>
+                        <span class="contact-employee-title">Employee 3</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="map-form-section">
+            <div class="map-container">
+                <div class="google-map">
+                    <div class="map-label">GOOGLE MAP</div>
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=YOUR_MAP_URL_HERE"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        
+            <div class="contact-form-container">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="fullname">Full Name</label>
+                        <input type="text" id="fullname" name="fullname" placeholder="Your name">
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your email address">
+                    </div>
+        
+                    <div class="form-group radio-group">
+                        <div class="radio-option">
+                            <input type="radio" id="general" name="inquiry-type" value="general">
+                            <label for="general">General Inquiry</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" id="reservation" name="inquiry-type" value="reservation">
+                            <label for="reservation">Reservation Question</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" id="suggestion" name="inquiry-type" value="website">
+                            <label for="suggestion">Website Suggestion</label>
+                        </div>
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="message">Leave us a message</label>
+                        <textarea id="message" name="message" placeholder="Write your message here..."></textarea>
+                    </div>
+        
+                    <div class="form-group checkbox-group">
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                    </div>
+        
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;2024 | The Rapids | Massango V. Moukouelle</p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com"><img src="images/facebook_icon.png" alt="Facebook"></a>
+            <a href="https://instagram.com"><img src="images/instagram_icon.png" alt="Instagram"></a>
+            <a href="https://twitter.com"><img src="images/twitter_icon.png" alt="Twitter"></a>
+        </nav>
+    </footer>
+</body>
+</html>
