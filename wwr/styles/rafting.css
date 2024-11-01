@@ -60,6 +60,7 @@ header, main, footer {
     padding: 20px;
 }
 
+/* Hero section styles */
 .hero {
     position: relative;
     background-color: var(--secondary-color);
@@ -92,12 +93,12 @@ header, main, footer {
     z-index: 1;
 }
 
+/* Hero article styles */
 .hero article {
     position: absolute;
     bottom: 20px;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
-    color: var(--background-color);
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     margin: 0 20px;
@@ -113,6 +114,28 @@ header, main, footer {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     margin-top: 20px;
     z-index: 0;
+}
+
+.hero article h2 {
+    color: #ffffff;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.hero article p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Add hover effect for better interactivity */
+.hero article:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
 }
 
 main {
@@ -630,6 +653,11 @@ footer .sociallinks a:hover img {
 }
 
 /*Trip page Style*/
+.container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
 /* Trips table styles */
 .trips-table {
     width: 100%;
